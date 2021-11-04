@@ -28,3 +28,9 @@ on the screen:
 """
 
 # your code here
+pi_half = 1
+
+for n in range(1,10001):
+      pi_half  = pi_half * ((4*n**2)/(4*n**2-1))
+      if n%100==0:
+       print(pi_half*2)

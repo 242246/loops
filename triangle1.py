@@ -13,3 +13,7 @@ Enter the size of the triangle: 4
 """
 
 # your code here
+size = int(input('enter the size of the triangle'))
+
+for i in range (1,size+1):
+    print('*'*i)

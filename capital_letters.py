@@ -7,5 +7,14 @@ Enter text: Data Science is SUPER!
 7
 
 """
+sentence = str(input())
 
-# your code here
+num = 0
+letters = 'QWERTYUIOPASDFGHJKLZXCVBNM'
+for i in sentence:
+    if i in letters:
+        num += 1
+
+print(num)
+
+
